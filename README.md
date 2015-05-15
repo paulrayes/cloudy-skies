@@ -55,7 +55,7 @@ kramdown:
   syntax_highlighter: rouge # Allows us to use ```-style fenced code blocks
 
 # Don't need these
-exclude: [node_modules, Gemfile, README.md, LICENSE, watch.sh, build.sh, package.json]
+exclude: [node_modules, Gemfile, README.md, LICENSE, watch.sh, build.sh, update.sh, package.json]
 ```
 
 Finally create a `includes/footer.md` file with your desired footer contents, such as the following which I use for library documentation sites:
